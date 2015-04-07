@@ -15,7 +15,7 @@ public class Tablero {
 		this.cantidadJugadas = cantidadJugadas;
 	}
 	public boolean hayGanador(){
-		if(casillas[0][0]==casillas[0][1]&&casillas[0][1]==casillas[0][2]&&casillas[0][0]!='\u0000')
+		if(casillas[0][0]==casillas[0][1]&&casillas[0][1]==casillas[0][2]&&casillas[0][0]!='\u0000') // \u0000 es el caracter vacio
 			return true;
 		else if(casillas[1][0]==casillas[1][1]&&casillas[1][1]==casillas[1][2]&&casillas[1][0]!='\u0000')
 			return true;
